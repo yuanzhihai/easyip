@@ -11,6 +11,7 @@
 
 namespace yzh52521\EasyIp;
 
+use yzh52521\EasyIp\EasyIp;
 
 class Service extends \think\Service
 {
@@ -21,6 +22,5 @@ class Service extends \think\Service
 
     public function boot()
     {
-
     }
 }

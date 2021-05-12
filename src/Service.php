@@ -16,7 +16,7 @@ class Service extends \think\Service
 {
     public function register()
     {
-        $this->app->bind('easyIp', EasyIp::class);
+        $this->app->bind('EasyIp', EasyIp::class);
     }
 
     public function boot()

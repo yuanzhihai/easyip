@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace easyIp\Exception;
+namespace yzh52521\EasyIp\Exception;
 
 class ReferenceException extends Exception
 {

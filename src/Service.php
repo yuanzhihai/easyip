@@ -9,7 +9,7 @@
  */
 
 
-namespace easyIp;
+namespace yzh52521\EasyIp;
 
 
 class Service extends \think\Service

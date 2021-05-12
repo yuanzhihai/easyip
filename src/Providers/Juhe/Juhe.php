@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace easyIp\Providers\Juhe;
+namespace yzh52521\EasyIp\Providers\Juhe;
 
 use GuzzleHttp\Client;
-use easyIp\Base\Base;
-use easyIp\Contracts\Resolvable;
-use easyIp\Exception\ReferenceException;
+use yzh52521\EasyIp\Base\Base;
+use yzh52521\EasyIp\Contracts\Resolvable;
+use yzh52521\EasyIp\Exception\ReferenceException;
 
 class Juhe extends Base implements Resolvable
 {

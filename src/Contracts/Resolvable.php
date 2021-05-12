@@ -9,7 +9,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace easyIp\Contracts;
+namespace yzh52521\EasyIp\Contracts;
 
 interface Resolvable
 {

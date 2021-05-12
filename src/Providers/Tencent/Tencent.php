@@ -10,12 +10,12 @@
  */
 
 
-namespace easyIp\Providers\Tencent;
+namespace yzh52521\EasyIp\Providers\Tencent;
 
 use GuzzleHttp\Client;
-use easyIp\Base\Base;
-use easyIp\Contracts\Resolvable;
-use easyIp\Exception\ReferenceException;
+use yzh52521\EasyIp\Base\Base;
+use yzh52521\EasyIp\Contracts\Resolvable;
+use yzh52521\EasyIp\Exception\ReferenceException;
 
 class Tencent extends Base implements Resolvable
 {

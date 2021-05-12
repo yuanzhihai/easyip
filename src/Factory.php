@@ -9,9 +9,9 @@
  * with this source code in the file LICENSE.
  */
 
-namespace easyip;
+namespace yzh52521\EasyIp;
 
-use easyIp\Exception\InvalidArgumentException;
+use yzh52521\EasyIp\Exception\InvalidArgumentException;
 
 class Factory
 {

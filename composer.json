@@ -14,13 +14,13 @@
     },
     "autoload": {
         "psr-4": {
-            "easyIp\\": "src"
+            "yzh52521\\EasyIp\\": "src"
         }
     },
     "extra": {
         "think": {
             "services": [
-                "easyIp\\Service"
+                "yzh52521\\EasyIp\\Service"
             ],
             "config":{
                 "easyip": "src/Config/easyip.php"

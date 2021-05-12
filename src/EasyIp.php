@@ -8,7 +8,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace easyIp;
+namespace yzh52521\EasyIp;
 
 class EasyIp
 {

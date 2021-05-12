@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace easyIp\Providers\Taobao;
+namespace yzh52521\EasyIp\Providers\Taobao;
 
-use easyIp\Exception\ReferenceException;
+use yzh52521\EasyIp\Exception\ReferenceException;
 use GuzzleHttp\Client;
-use easyIp\Base\Base;
-use easyIp\Contracts\Resolvable;
+use yzh52521\EasyIp\Base\Base;
+use yzh52521\EasyIp\Contracts\Resolvable;
 
 class Taobao extends Base implements Resolvable
 {

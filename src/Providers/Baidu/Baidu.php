@@ -9,12 +9,12 @@
  * with this source code in the file LICENSE.
  */
 
-namespace easyIp\Providers\Baidu;
+namespace yzh52521\EasyIp\Providers\Baidu;
 
 use GuzzleHttp\Client;
-use easyIp\Base\Base;
-use easyIp\Contracts\Resolvable;
-use easyIp\Exception\ReferenceException;
+use yzh52521\EasyIp\Base\Base;
+use yzh52521\EasyIp\Contracts\Resolvable;
+use yzh52521\EasyIp\Exception\ReferenceException;
 
 class Baidu extends Base implements Resolvable
 {

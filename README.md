@@ -33,7 +33,7 @@ $config = [
     ...
 ];
 
-$ip = new \easyIp\EasyIp($config);
+$ip = new \yzh52521\easyIp\EasyIp($config);
 
 $result = $ip->parse('');
 ```

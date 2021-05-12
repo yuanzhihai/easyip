@@ -1,0 +1,7 @@
+.idea
+*.DS_Store
+/vendor
+/coverage
+sftp-config.json
+composer.lock
+.subsplit

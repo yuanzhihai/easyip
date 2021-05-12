@@ -40,7 +40,7 @@ class Taobao extends Base implements Resolvable
         ];
 
         $this->ip = $ip;
-        $this->response = json_decode((new CLient())->post(static::URL, ['form_params' => $params])->getBody(), true);
+        $this->response = json_decode((new CLient())->get(static::URL, ['query' => $params])->getBody(), true);
 
         return $this->check()->format();
     }

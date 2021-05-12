@@ -56,7 +56,8 @@ return [
 
 在think6中使用
 ```bash
-app('EasyIp')->parse('')
+app('EasyIp',['config' => config('easyip')])->parse('')
+
 
 ...
 ...
